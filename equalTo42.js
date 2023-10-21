@@ -26,13 +26,22 @@
 
 let arr = [1, 3, 67, 42, 9, 35];
 function check42(arr) {
-    let flag = false;
+  let flag = false;
   for (let ele of arr) {
     if (ele === 42) {
       flag = true;
     }
-    }
-    flag===true?console.log("Yes"):console.log("No")
+  }
+  flag === true ? console.log("Yes") : console.log("No");
 }
-check42(arr)
+check42(arr);
 
+function equalTo42(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === 42) {
+      return "Yes";
+    }
+  }
+  return "No";
+}
+console.log(equalTo42(arr));
