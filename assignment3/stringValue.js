@@ -25,14 +25,14 @@
 
 // Sample 1 Explanation
 
-// For example, Consider the Stringaba
+// For example, Consider the String --> aba
 
-// Here, the first characterahas a weight of1, the second characterbhas2and the third
-// characteraagain has a weight of1.
+// Here, the first characterahas a weight of 1, the second character has 2 and the third
+// characteraagain has a weight of 1.
 
 // So the sum of stringabahere is equal to : 1 + 2 + 1 = 4.
 
-let str = "abz";
+let str = "aba";
 
 function StringValue(str) {
   let obj = {};
