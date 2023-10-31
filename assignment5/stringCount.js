@@ -17,4 +17,7 @@ function StringEquation(N, str) {
 }
 let str = "AmanZ"
 let N = str.length;
-  StringEquation(N, str)
+StringEquation(N, str)
+  
+
+
